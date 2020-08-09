@@ -1,0 +1,38 @@
+#bg{
+    height: 100vh;
+    background: url(../../assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+#login{
+    width: 25%;
+    margin:0px auto;
+    /* padding-top: 200px; */
+    box-shadow: 0px 0px 2px 0px #000;    
+    padding-bottom: 50px;
+}
+form{
+    padding-top: 200px;
+}
+#login h3{
+    box-sizing: border-box;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+#loginMain{
+    margin-top: 25px 0px;
+    padding: 25px;
+}
+.inpuWrap{
+    margin-top: 15px;
+}
+.inpuWrap input, button{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.inpuWrap input{
+    padding:5px;
+    box-sizing: border-box;
+}

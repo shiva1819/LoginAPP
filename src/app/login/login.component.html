@@ -1,0 +1,24 @@
+<div id="bg">
+<form [formGroup]="loginForm">
+    <div id="login">
+        <h3>Member Login</h3>
+        <div id="loginMain">
+
+            <div class="nameWrap inpuWrap">
+                <label for="userName">User Name</label>
+                <input type="text" class="username" required formControlName="email">
+                <span *ngIf="isValid('email')" class="fs-err">Username cannot be blank</span>
+            </div>
+            <div class="passWrap inpuWrap">
+                <label for="password">PassWord</label>
+                <input type="text" class="password" required formControlName="password">
+                <span *ngIf="isValid('password')" class="fs-err">Password cannot be blank</span>
+            </div>
+            <div class="inpuWrap">
+                <button type="type" (click)="login()" [disabled]=''> Login </button>
+                <span>{{ errorLog }}</span>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
